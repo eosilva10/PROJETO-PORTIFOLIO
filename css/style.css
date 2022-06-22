@@ -18,3 +18,55 @@
     --fonte-h2: 1.9rem;
     --fonte-p: 1rem;
 }
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--cor-fundo);
+    padding: 24px 14%;
+    transition: 0.3s;
+}
+
+.logo {
+    color: var(--cor-texto);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+span {
+    color: var(--cor-principal);
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--cor-texto);
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.navbar a:hover {
+    background: var(--cor-principal);
+    transition: .3s;
+}
+
+#icone-menu {
+    font-size: 28px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
