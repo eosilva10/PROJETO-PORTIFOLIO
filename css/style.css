@@ -142,3 +142,47 @@ section {
     color: var(--cor-principal);
     box-shadow: 4px 4px var(--cor-principal);
 }
+
+/* SOBRE */
+.sobre {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5rem;
+    align-items: center;
+}
+
+.img-sobre img{
+    max-width: 100%;
+    width: 580px;
+    margin: auto;
+}
+
+.texto-sobre h3 {
+    color: var(--cor-texto);
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin: 0 0 30px;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: var(--fonte-h2);
+    line-height: 1.2;
+    max-width: 470px;
+    margin-bottom: 2rem;
+}
+
+.texto-sobre p {
+    max-width: 570px;
+    font-size: var(--fonte-p);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--cor-principal2);
+}
+
+.btn-sobre .btn {
+    margin-right: 20px;
+}
