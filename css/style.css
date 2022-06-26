@@ -293,10 +293,75 @@ section {
 }
 
 section.experiencias .box {
-    height: 600px;
-    margin-bottom: 1.2rem;
+    height: 550px;
 }
 
 section.experiencias .box ul li {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.7rem;
+}
+
+/* CONTATO */
+.form-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+
+.form-contato form {
+    position: relative;
+    width: 550px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: #0b0b13;
+    color: var(--cor-texto);
+    margin-bottom: 0.5rem;
+    border-radius: 5px;    
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--cor-principal2);
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar {
+    background: var(--cor-principal);
+    color: var(--cor-texto);
+    box-shadow: 4px 4px var(--cor-texto);
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    cursor: pointer;
+}
+
+form .btn-enviar:hover {
+    background: var(--cor-texto);
+    color: var(--cor-principal);
+    box-shadow: 4px 4px var(--cor-principal);
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    padding: 30px;
+    color: var(--cor-principal2);
+    background: #0b0b13;
+    margin-top: 3rem;
+    line-height: 1.8rem;
 }
